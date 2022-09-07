@@ -1,6 +1,7 @@
 import gzip
 import io
 import re
+import argparse
 
 try:
     from cStringIO import StringIO as BytesIO
@@ -67,11 +68,17 @@ def dfs(visited, graph, node):
 
 
 if __name__ == '__main__':
-    con = "/media/elizabeth/Debian 11.4.0 amd64 1/dists/stable/main/binary-amd64/Packages.gz"
-    dd = dep_list(con)
+    parser = argparse.ArgumentParser(description='Redepends')
+    parser.add_argument('dir', type=str, help='Input dir for repository')
+    parser.add_argument('package', type=str, help='Name of package')
+    args = parser.parse_args()
+    dir = re.sub(r'"', '', args.dir)
+    dir = dir + "/dists/stable/main/binary-amd64/Packages.gz"
+    # con = "/media/elizabeth/Debian 11.4.0 amd64 1/dists/stable/main/binary-amd64/Packages.gz"
+    dd = dep_list(dir)
     vis = set()
-    if "apt-utils" in dd:
-        for i in dd["apt-utils"]:
-            print(i)
-    k = "apt"
-    dfs(vis, dd, k)
+    #if "apt-utils" in dd:
+     #   for i in dd["apt-utils"]:
+      #      print(i)
+    #k = "apt"
+    dfs(vis, dd, args.package)
