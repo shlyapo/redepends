@@ -5,7 +5,7 @@
 
 ## Usage
 
-![Image alt](https://github.com/shlyapo/rdepends/raw/master/image/1.png)
+![Image alt](https://github.com/shlyapo/redepends/raw/master/image/1.png)
 
 ## Example
 Start the terminal and go to directory, where this file is located.
