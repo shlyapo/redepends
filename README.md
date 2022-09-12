@@ -20,3 +20,5 @@ Ex: -p apt wine apport-retrace
 And you can write local or network repository. Repository should be in quotes.
 
 Ex: "http://ru.archive.ubuntu.com/ubuntu/dists/jammy/main/binary-amd64/Packages.gz" or "/media/elizabeth/Debian 11.4.0 amd64 1"
+
+![Image alt](https://github.com/shlyapo/redepends/raw/master/image/Снимок экрана от 2022-09-12 13-29-05.png)
