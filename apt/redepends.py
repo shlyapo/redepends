@@ -101,12 +101,12 @@ def dep_list(content):
 
         if tarfile.is_tarfile(content):
             with tarfile.open(content, "r") as tar:
-                with io.TextIOWrapper(tar, encoding='utf-8') as decoder:
-                    f = decoder.readlines()
-                    for line in f:
-                        line = line[2:-1]
-                        d = procc_dep(line, d)
-                    return d
+                decoder = tar.extractfile("Packages")
+                a = decoder.readlines
+                for line in a:
+                    line = line[2:-1]
+                    d = procc_dep(line, d)
+                return d
 
         elif zipfile.is_zipfile(content):
             with zipfile.ZipFile(content) as thezip:
@@ -141,10 +141,15 @@ def dfs(visited, graph, node, step):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Redepends', prog='redepends')
     parser.add_argument('-p', type=str, help='Name of package', nargs="+")
-    parser.add_argument('-d', type=str, help='Input dir for repository')
+    parser.add_argument('-h', action='store_const', const=True,
+                        help='Add this arquments and url')
+    parser.add_argument('-d', action='store_const', const=True, help='Input local dir for repository')
     args = parser.parse_args()
 
-    if ":" in args.d:
+    if args.d and args.h:
+         print("Wrong input")
+
+    elif args.h:
 
         try:
             r = requests.get(args.d)
@@ -178,11 +183,14 @@ if __name__ == '__main__':
         except requests.exceptions.HTTPError as err:
             raise SystemExit(err)
 
-    else:
+    elif args.d:
 
         dir = args.d  # "/dists/stable/main/binary-amd64/Packages.gz"
         print(dir)
         dd = dep_list(dir)
+
+    else:
+        print("Wrong input")
 
     if isinstance(dd, str):
         print(dd)
