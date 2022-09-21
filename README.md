@@ -15,9 +15,7 @@ or
 
 python3 redepends.py -p 'Package name' -u "Directory" 
 
-you can choose the path you want
 
-![Image alt](https://github.com/shlyapo/redepends/raw/master/image/3.png)
 
 You can write one or more packages. List their names without a comma separated by a space.
 
