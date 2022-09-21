@@ -88,7 +88,7 @@ def procc_dep(li, dict_d):
 def dep_list(content):
     dir_name = "binary-amd64"
     list_dir = []
-
+    dict_de = dict()
     if os.path.exists(content):
         for rootdir, dirs, files in os.walk(content):
             if (rootdir.split('/')[-1]) == dir_name:
@@ -96,83 +96,79 @@ def dep_list(content):
 
         if len(list_dir) == 0:
             return "Check your path"
+        for content in list_dir:
+        #while True:
+         #   print("Choose dir, that you need")
+          #  count = 0
+           # for i in list_dir:
+            #    count += 1
+             #   print(count)
+              #  print(i)
 
-        while True:
-            print("Choose dir, that you need")
-            count = 0
-            for i in list_dir:
-                count += 1
-                print(count)
-                print(i)
+            #ans = input()
+            #if ans.isdigit():
+             #   ans = int(ans)
+              #  if 0 < ans <= count:
+               #     content = list_dir[ans - 1]
+                #    break
+                #else:
+                 #   print("Wrong input")
+            #else:
+             #   print("Wrong input")
 
-            ans = input()
-            if ans.isdigit():
-                ans = int(ans)
-                if 0 < ans <= count:
-                    content = list_dir[ans - 1]
-                    break
-                else:
-                    print("Wrong input")
-            else:
-                print("Wrong input")
+            for rootdir, dirs, files in os.walk(content):
+                for file in files:
+                    if (file.split('.')[0]) == 'Packages':
+                        content = os.path.join(content, file)
+                        break
 
-        for rootdir, dirs, files in os.walk(content):
-            for file in files:
-                if (file.split('.')[0]) == 'Packages':
-                    content = os.path.join(content, file)
-                    break
+            pa = content.split('/')[-1]
 
-        pa = content.split('/')[-1]
+            if tarfile.is_tarfile(content):
+                with tarfile.open(content, "r") as tar:
+                    decoder = tar.extractfile("Packages")
+                    a = decoder.readlines()
 
-        if tarfile.is_tarfile(content):
-            dict_de = dict()
-            with tarfile.open(content, "r") as tar:
-                decoder = tar.extractfile("Packages")
-                a = decoder.readlines()
-
-                for line in a:
-                    line = line.decode()
-                    line = line[:-1]
-                    da = procc_dep(line, dict_de)
-                    dict_de = da
-
-                return dict_de
-
-        elif zipfile.is_zipfile(content):
-            dict_de = dict()
-            with zipfile.ZipFile(content) as thezip:
-                with thezip.open('Packages', mode='r') as thefile:
-                    f = thefile.readlines()
-
-                    for line in f:
-                        line = line[:-1]
+                    for line in a:
                         line = line.decode()
-                        da = procc_dep(line, dict_de)
-                        dict_de = da
-                    return dict_de
-
-        elif pa.split(".")[-1] == 'gz':
-            dict_de = dict()
-            with gzip.open(content, 'rb') as f:
-                with io.TextIOWrapper(f, encoding='utf-8') as decoder:
-                    f = decoder.readlines()
-
-                    for line in f:
                         line = line[:-1]
                         da = procc_dep(line, dict_de)
                         dict_de = da
-                    return dict_de
 
-        else:
-            dict_de = dict()
-            with open(content, 'rb') as f:
-                f = f.readlines()
-                for line in f:
-                    line = line.decode()
-                    line = line[:-1]
-                    da = procc_dep(line, dict_de)
-                    dict_de = da
-                return dict_de
+
+
+            elif zipfile.is_zipfile(content):
+                with zipfile.ZipFile(content) as thezip:
+                    with thezip.open('Packages', mode='r') as thefile:
+                        f = thefile.readlines()
+
+                        for line in f:
+                            line = line[:-1]
+                            line = line.decode()
+                            da = procc_dep(line, dict_de)
+                            dict_de = da
+
+
+            elif pa.split(".")[-1] == 'gz':
+                with gzip.open(content, 'rb') as f:
+                    with io.TextIOWrapper(f, encoding='utf-8') as decoder:
+                        f = decoder.readlines()
+
+                        for line in f:
+                            line = line[:-1]
+                            da = procc_dep(line, dict_de)
+                            dict_de = da
+
+
+            else:
+                with open(content, 'rb') as f:
+                    f = f.readlines()
+                    for line in f:
+                        line = line.decode()
+                        line = line[:-1]
+                        da = procc_dep(line, dict_de)
+                        dict_de = da
+        return dict_de
     else:
         return "Repository not found"
 
