@@ -1,0 +1,625 @@
+1:['default-jre-headless', 'ca-certificates-java', 'ca-certificates-java']
+2:['default-jre-headless', 'ca-certificates-java', 'ant', 'ant-contrib']
+3:['default-jre-headless', 'ca-certificates-java', 'antlr', 'groovy']
+4:['default-jre-headless', 'ca-certificates-java', 'antlr3', 'libantlr3-gunit-java']
+5:['default-jre-headless', 'ca-certificates-java', 'junit4', 'libantlr3-gunit-java']
+6:['default-jre-headless', 'ca-certificates-java', 'antlr3.2', 'libantlr3.2-gunit-java']
+7:['default-jre-headless', 'ca-certificates-java', 'antlr4', 'antlr4-maven-plugin']
+8:['default-jre-headless', 'ca-certificates-java', 'aspectj']
+9:['default-jre-headless', 'ca-certificates-java', 'bnd', 'libgradle-plugins-java']
+10:['default-jre-headless', 'ca-certificates-java', 'bsh']
+11:['default-jre-headless', 'ca-certificates-java', 'closure-compiler']
+12:['default-jre-headless', 'ca-certificates-java', 'cup', 'jflex']
+13:['default-jre-headless', 'ca-certificates-java', 'default-jre', 'derby-tools']
+14:['default-jre-headless', 'ca-certificates-java', 'ecj']
+15:['default-jre-headless', 'ca-certificates-java', 'erlang-jinterface']
+16:['default-jre-headless', 'ca-certificates-java', 'fop', 'publican']
+17:['default-jre-headless', 'ca-certificates-java', 'ivy', 'groovy']
+18:['default-jre-headless', 'ca-certificates-java', 'groovy', 'libgradle-core-java']
+19:['default-jre-headless', 'ca-certificates-java', 'gradle', 'gradle-debian-helper']
+20:['default-jre-headless', 'ca-certificates-java', 'maven-repo-helper', 'gradle-debian-helper']
+21:['default-jre-headless', 'ca-certificates-java', 'gradle-debian-helper']
+22:['default-jre-headless', 'ca-certificates-java', 'hsqldb-utils']
+23:['default-jre-headless', 'ca-certificates-java', 'ivy-debian-helper']
+24:['default-jre-headless', 'ca-certificates-java', 'javacc']
+25:['default-jre-headless', 'ca-certificates-java', 'javacc4']
+26:['default-jre-headless', 'ca-certificates-java', 'jaxb']
+27:['default-jre-headless', 'ca-certificates-java', 'jetty9']
+28:['default-jre-headless', 'ca-certificates-java', 'jflex']
+29:['default-jre-headless', 'ca-certificates-java', 'jython']
+30:['default-jre-headless', 'ca-certificates-java', 'libbluray-bdj']
+31:['default-jre-headless', 'ca-certificates-java', 'libgeronimo-jms-1.1-spec-java', 'libeclipselink-java']
+32:['default-jre-headless', 'ca-certificates-java', 'rhino', 'libhttpunit-java']
+33:['default-jre-headless', 'ca-certificates-java', 'libservice-wrapper-jni', 'service-wrapper']
+34:['default-jre-headless', 'ca-certificates-java', 'maven']
+35:['default-jre-headless', 'ca-certificates-java', 'tomcat9-common', 'tomcat9']
+36:['default-jre-headless', 'ca-certificates-java', 'xmlbeans']
+37:['default-jre-headless', 'ca-certificates-java', 'yui-compressor']
+38:['default-jre-headless', 'ca-certificates-java', 'ant', 'ant-optional', 'libgradle-plugins-java']
+39:['default-jre-headless', 'ca-certificates-java', 'ant', 'libfop-java', 'fop']
+40:['default-jre-headless', 'ca-certificates-java', 'ant', 'libgradle-core-java']
+41:['default-jre-headless', 'ca-certificates-java', 'ant', 'ivy-debian-helper']
+42:['default-jre-headless', 'ca-certificates-java', 'ant', 'libistack-commons-java', 'libcodemodel-java']
+43:['default-jre-headless', 'ca-certificates-java', 'ant', 'jruby']
+44:['default-jre-headless', 'ca-certificates-java', 'ant', 'libbindex-java']
+45:['default-jre-headless', 'ca-certificates-java', 'ant', 'libcomment-preprocessor-java']
+46:['default-jre-headless', 'ca-certificates-java', 'ant', 'libeclipse-jdt-apt-core-java', 'libeclipse-jdt-apt-pluggable-core-java']
+47:['default-jre-headless', 'ca-certificates-java', 'ant', 'libgmavenplus-java']
+48:['default-jre-headless', 'ca-certificates-java', 'ant', 'libmsv-java', 'libwoodstox-java']
+49:['default-jre-headless', 'ca-certificates-java', 'ant', 'libplexus-ant-factory-java', 'libmaven-plugin-tools-java']
+50:['default-jre-headless', 'ca-certificates-java', 'ant', 'libmaven-plugin-tools-java', 'libjboss-bridger-java']
+51:['default-jre-headless', 'ca-certificates-java', 'ant', 'libjgit-ant-java']
+52:['default-jre-headless', 'ca-certificates-java', 'ant', 'liblayout-java']
+53:['default-jre-headless', 'ca-certificates-java', 'ant', 'libmaven-antrun-plugin-java']
+54:['default-jre-headless', 'ca-certificates-java', 'ant', 'libmaven-script-interpreter-java', 'libmaven-invoker-plugin-java']
+55:['default-jre-headless', 'ca-certificates-java', 'ant', 'libreplacer-java']
+56:['default-jre-headless', 'ca-certificates-java', 'ant', 'libserializer-java']
+57:['default-jre-headless', 'ca-certificates-java', 'ant', 'libspock-java']
+58:['default-jre-headless', 'ca-certificates-java', 'ant', 'maven-ant-helper']
+59:['default-jre-headless', 'ca-certificates-java', 'antlr3', 'antlr3-maven-plugin']
+60:['default-jre-headless', 'ca-certificates-java', 'junit4', 'libantlr3.2-gunit-java', 'antlr3.2-gunit-maven-plugin']
+61:['default-jre-headless', 'ca-certificates-java', 'junit4', 'bnd', 'libgradle-plugins-java']
+62:['default-jre-headless', 'ca-certificates-java', 'junit4', 'groovy', 'libgradle-core-java', 'libgradle-plugins-java']
+63:['default-jre-headless', 'ca-certificates-java', 'junit4', 'libgradle-plugins-java']
+64:['default-jre-headless', 'ca-certificates-java', 'junit4', 'jruby']
+65:['default-jre-headless', 'ca-certificates-java', 'junit4', 'libjtharness-java', 'jtreg']
+66:['default-jre-headless', 'ca-certificates-java', 'junit4', 'libbindex-java']
+67:['default-jre-headless', 'ca-certificates-java', 'junit4', 'libcarrotsearch-randomizedtesting-java']
+68:['default-jre-headless', 'ca-certificates-java', 'junit4', 'libeclipse-jdt-junit4-runtime-java']
+69:['default-jre-headless', 'ca-certificates-java', 'junit4', 'libfest-util-java', 'libfest-assert-java']
+70:['default-jre-headless', 'ca-certificates-java', 'junit4', 'libfest-test-java']
+71:['default-jre-headless', 'ca-certificates-java', 'junit4', 'libmaven-plugin-testing-java']
+72:['default-jre-headless', 'ca-certificates-java', 'junit4', 'libnetty-tcnative-java']
+73:['default-jre-headless', 'ca-certificates-java', 'junit4', 'libresteasy3.0-java']
+74:['default-jre-headless', 'ca-certificates-java', 'junit4', 'libspock-java']
+75:['default-jre-headless', 'ca-certificates-java', 'antlr3.2', 'antlr3.2-maven-plugin']
+76:['default-jre-headless', 'ca-certificates-java', 'antlr3.2', 'jython']
+77:['default-jre-headless', 'ca-certificates-java', 'antlr4', 'libcarrotsearch-hppc-java']
+78:['default-jre-headless', 'ca-certificates-java', 'junit4', 'bnd', 'libbindex-java']
+79:['default-jre-headless', 'ca-certificates-java', 'junit4', 'bnd', 'libnet-luminis-build-plugin-java']
+80:['default-jre-headless', 'ca-certificates-java', 'cup', 'libxsltc-java']
+81:['default-jre-headless', 'ca-certificates-java', 'default-jre', 'findbugs']
+82:['default-jre-headless', 'ca-certificates-java', 'default-jre', 'freetts']
+83:['default-jre-headless', 'ca-certificates-java', 'default-jre', 'icedtea-netx']
+84:['default-jre-headless', 'ca-certificates-java', 'default-jre', 'javahelp2', 'jtreg']
+85:['default-jre-headless', 'ca-certificates-java', 'default-jre', 'jlex', 'libxsltc-java']
+86:['default-jre-headless', 'ca-certificates-java', 'default-jre', 'jruby']
+87:['default-jre-headless', 'ca-certificates-java', 'default-jre', 'sat4j', 'libequinox-p2-director-java']
+88:['default-jre-headless', 'ca-certificates-java', 'default-jre', 'remotetea', 'libgmetric4j-java']
+89:['default-jre-headless', 'ca-certificates-java', 'default-jre', 'libopenjpip-viewer']
+90:['default-jre-headless', 'ca-certificates-java', 'default-jre', 'libreoffice-officebean']
+91:['default-jre-headless', 'ca-certificates-java', 'default-jre', 'libreoffice-script-provider-bsh']
+92:['default-jre-headless', 'ca-certificates-java', 'default-jre', 'libreoffice-script-provider-js']
+93:['default-jre-headless', 'ca-certificates-java', 'default-jre', 'libreoffice-sdbc-hsqldb']
+94:['default-jre-headless', 'ca-certificates-java', 'default-jre', 'patator']
+95:['default-jre-headless', 'ca-certificates-java', 'default-jre', 'shrinksafe']
+96:['default-jre-headless', 'ca-certificates-java', 'default-jre', 'stegosuite']
+97:['default-jre-headless', 'ca-certificates-java', 'default-jre', 'uima-utils']
+98:['default-jre-headless', 'ca-certificates-java', 'default-jre', 'zabbix-java-gateway']
+99:['default-jre-headless', 'ca-certificates-java', 'ivy', 'libgradle-core-java', 'libgradle-plugins-java', 'gradle']
+100:['default-jre-headless', 'ca-certificates-java', 'ivy', 'ivy-debian-helper']
+101:['default-jre-headless', 'ca-certificates-java', 'ivy', 'libgmavenplus-java']
+102:['default-jre-headless', 'ca-certificates-java', 'junit4', 'groovy', 'libcommons-jci-groovy-java']
+103:['default-jre-headless', 'ca-certificates-java', 'junit4', 'groovy', 'libmaven-script-interpreter-java', 'libmaven-invoker-plugin-java']
+104:['default-jre-headless', 'ca-certificates-java', 'junit4', 'groovy', 'libmaven-invoker-plugin-java']
+105:['default-jre-headless', 'ca-certificates-java', 'junit4', 'groovy', 'libspock-java']
+106:['default-jre-headless', 'ca-certificates-java', 'maven-repo-helper', 'ivy-debian-helper']
+107:['default-jre-headless', 'ca-certificates-java', 'maven-repo-helper', 'maven-ant-helper']
+108:['default-jre-headless', 'ca-certificates-java', 'libgeronimo-jms-1.1-spec-java', 'libopenjpa-java']
+109:['default-jre-headless', 'ca-certificates-java', 'libgeronimo-jms-1.1-spec-java', 'liboscache-java']
+110:['default-jre-headless', 'ca-certificates-java', 'libgeronimo-jms-1.1-spec-java', 'libspring-jms-java']
+111:['default-jre-headless', 'ca-certificates-java', 'tomcat9-common', 'tomcat9-admin']
+112:['default-jre-headless', 'ca-certificates-java', 'tomcat9-common', 'tomcat9-user']
+113:['default-jre-headless', 'ca-certificates-java', 'ant', 'ant-optional', 'libistack-commons-java', 'libcodemodel-java']
+114:['default-jre-headless', 'ca-certificates-java', 'ant', 'ant-optional', 'libclassycle-java']
+115:['default-jre-headless', 'ca-certificates-java', 'ant', 'ant-optional', 'maven-ant-helper']
+116:['default-jre-headless', 'ca-certificates-java', 'ant', 'libfop-java', 'libdoxia-java', 'libdoxia-sitetools-java']
+117:['default-jre-headless', 'ca-certificates-java', 'ivy', 'libgradle-core-java', 'gradle', 'gradle-debian-helper']
+118:['default-jre-headless', 'ca-certificates-java', 'ant', 'ant-optional', 'libistack-commons-java', 'libjaxb-java', 'jaxb']
+119:['default-jre-headless', 'ca-certificates-java', 'ant', 'ant-optional', 'libistack-commons-java', 'libmaven-jaxb2-plugin-java']
+120:['default-jre-headless', 'ca-certificates-java', 'ant', 'libmaven-plugin-tools-java', 'libmaven-assembly-plugin-java']
+121:['default-jre-headless', 'ca-certificates-java', 'ant', 'libmaven-plugin-tools-java', 'libmaven-dependency-plugin-java']
+122:['default-jre-headless', 'ca-certificates-java', 'ant', 'libmaven-plugin-tools-java', 'libmaven-jaxb2-plugin-java']
+123:['default-jre-headless', 'ca-certificates-java', 'ant', 'libmaven-plugin-tools-java', 'libmaven-processor-plugin-java']
+124:['default-jre-headless', 'ca-certificates-java', 'ant', 'libmaven-plugin-tools-java', 'libmaven-site-plugin-java']
+125:['default-jre-headless', 'ca-certificates-java', 'ant', 'libmaven-plugin-tools-java', 'libmustache-java', 'libtiles-request-java']
+126:['default-jre-headless', 'ca-certificates-java', 'bnd', 'libbindex-java']
+127:['default-jre-headless', 'ca-certificates-java', 'bnd', 'libnet-luminis-build-plugin-java']
+128:['default-jre-headless', 'ca-certificates-java', 'groovy', 'libcommons-jci-groovy-java']
+129:['default-jre-headless', 'ca-certificates-java', 'groovy', 'libmaven-script-interpreter-java', 'libmaven-invoker-plugin-java']
+130:['default-jre-headless', 'ca-certificates-java', 'groovy', 'libmaven-invoker-plugin-java']
+131:['default-jre-headless', 'ca-certificates-java', 'groovy', 'libspock-java']
+132:['default-jre-headless', 'ca-certificates-java', 'junit4', 'groovy', 'libgradle-core-java', 'gradle', 'gradle-debian-helper']
+133:['default-jre-headless', 'ca-certificates-java', 'ant', 'libistack-commons-java', 'libjaxb-java', 'jaxb']
+134:['default-jre-headless', 'ca-certificates-java', 'ant', 'libistack-commons-java', 'libmaven-jaxb2-plugin-java']
+135:['default-jre-headless', 'ca-certificates-java', 'ant', 'libfop-java', 'libdoxia-java', 'libmaven-site-plugin-java']
+136:['default-jre-headless', 'ca-certificates-java', 'ant', 'libistack-commons-java', 'libjaxb-java', 'libapache-poi-java', 'liblayout-java']
+137:['default-jre-headless', 'ca-certificates-java', 'ant', 'libistack-commons-java', 'libjaxb-java', 'libeclipselink-java']
+138:['default-jre-headless', 'ca-certificates-java', 'ant', 'libistack-commons-java', 'libjaxb-java', 'libmaven-jaxb2-plugin-java']
+139:['default-jre-headless', 'ca-certificates-java', 'ant', 'libistack-commons-java', 'libjaxb-java', 'libresteasy3.0-java']
+140:['default-jre-headless', 'ca-certificates-java', 'ant', 'ant-optional', 'libistack-commons-java', 'libjaxb-java', 'libapache-poi-java', 'liblayout-java']
+141:['default-jre-headless', 'ca-certificates-java', 'ant', 'ant-optional', 'libistack-commons-java', 'libjaxb-java', 'libeclipselink-java']
+142:['default-jre-headless', 'ca-certificates-java', 'ant', 'ant-optional', 'libistack-commons-java', 'libjaxb-java', 'libmaven-jaxb2-plugin-java']
+143:['default-jre-headless', 'ca-certificates-java', 'ant', 'ant-optional', 'libistack-commons-java', 'libjaxb-java', 'libresteasy3.0-java']
+1:['default-jre', 'derby-tools']
+2:['default-jre', 'findbugs']
+3:['default-jre', 'freetts']
+4:['default-jre', 'icedtea-netx']
+5:['default-jre', 'javahelp2', 'jtreg']
+6:['default-jre', 'jlex', 'libxsltc-java']
+7:['default-jre', 'jruby']
+8:['default-jre', 'sat4j', 'libequinox-p2-director-java']
+9:['default-jre', 'remotetea', 'libgmetric4j-java']
+10:['default-jre', 'libopenjpip-viewer']
+11:['default-jre', 'libreoffice-officebean']
+12:['default-jre', 'libreoffice-script-provider-bsh']
+13:['default-jre', 'libreoffice-script-provider-js']
+14:['default-jre', 'libreoffice-sdbc-hsqldb']
+15:['default-jre', 'patator']
+16:['default-jre', 'shrinksafe']
+17:['default-jre', 'stegosuite']
+18:['default-jre', 'uima-utils']
+19:['default-jre', 'zabbix-java-gateway']
+1:['openjdk-11-jre-headless', 'default-jre-headless']
+2:['openjdk-11-jre-headless', 'openjdk-11-jre', 'default-jre']
+3:['openjdk-11-jre-headless', 'openjdk-11-jre-zero']
+1:['openjdk-11-jre', 'default-jre']
+1:['openjdk-11-jre-zero']
+1:['java-common', 'openjdk-11-jre-headless']
+2:['java-common', 'default-jre-headless', 'ca-certificates-java', 'ca-certificates-java']
+3:['java-common', 'default-jre-headless', 'ca-certificates-java', 'ant', 'ant-contrib']
+4:['java-common', 'default-jre-headless', 'ca-certificates-java', 'antlr', 'groovy']
+5:['java-common', 'default-jre-headless', 'ca-certificates-java', 'antlr3', 'libantlr3-gunit-java']
+6:['java-common', 'default-jre-headless', 'ca-certificates-java', 'junit4', 'libantlr3-gunit-java']
+7:['java-common', 'default-jre-headless', 'ca-certificates-java', 'antlr3.2', 'libantlr3.2-gunit-java']
+8:['java-common', 'default-jre-headless', 'ca-certificates-java', 'antlr4', 'antlr4-maven-plugin']
+9:['java-common', 'default-jre-headless', 'ca-certificates-java', 'aspectj']
+10:['java-common', 'default-jre-headless', 'ca-certificates-java', 'bnd', 'libgradle-plugins-java']
+11:['java-common', 'default-jre-headless', 'ca-certificates-java', 'bsh']
+12:['java-common', 'default-jre-headless', 'ca-certificates-java', 'closure-compiler']
+13:['java-common', 'default-jre-headless', 'ca-certificates-java', 'cup', 'jflex']
+14:['java-common', 'default-jre-headless', 'ca-certificates-java', 'default-jre', 'derby-tools']
+15:['java-common', 'default-jre-headless', 'ca-certificates-java', 'ecj']
+16:['java-common', 'default-jre-headless', 'ca-certificates-java', 'erlang-jinterface']
+17:['java-common', 'default-jre-headless', 'ca-certificates-java', 'fop', 'publican']
+18:['java-common', 'default-jre-headless', 'ca-certificates-java', 'ivy', 'groovy']
+19:['java-common', 'default-jre-headless', 'ca-certificates-java', 'groovy', 'libgradle-core-java']
+20:['java-common', 'default-jre-headless', 'ca-certificates-java', 'gradle', 'gradle-debian-helper']
+21:['java-common', 'default-jre-headless', 'ca-certificates-java', 'maven-repo-helper', 'gradle-debian-helper']
+22:['java-common', 'default-jre-headless', 'ca-certificates-java', 'gradle-debian-helper']
+23:['java-common', 'default-jre-headless', 'ca-certificates-java', 'hsqldb-utils']
+24:['java-common', 'default-jre-headless', 'ca-certificates-java', 'ivy-debian-helper']
+25:['java-common', 'default-jre-headless', 'ca-certificates-java', 'javacc']
+26:['java-common', 'default-jre-headless', 'ca-certificates-java', 'javacc4']
+27:['java-common', 'default-jre-headless', 'ca-certificates-java', 'jaxb']
+28:['java-common', 'default-jre-headless', 'ca-certificates-java', 'jetty9']
+29:['java-common', 'default-jre-headless', 'ca-certificates-java', 'jflex']
+30:['java-common', 'default-jre-headless', 'ca-certificates-java', 'jython']
+31:['java-common', 'default-jre-headless', 'ca-certificates-java', 'libbluray-bdj']
+32:['java-common', 'default-jre-headless', 'ca-certificates-java', 'libgeronimo-jms-1.1-spec-java', 'libeclipselink-java']
+33:['java-common', 'default-jre-headless', 'ca-certificates-java', 'rhino', 'libhttpunit-java']
+34:['java-common', 'default-jre-headless', 'ca-certificates-java', 'libservice-wrapper-jni', 'service-wrapper']
+35:['java-common', 'default-jre-headless', 'ca-certificates-java', 'maven']
+36:['java-common', 'default-jre-headless', 'ca-certificates-java', 'tomcat9-common', 'tomcat9']
+37:['java-common', 'default-jre-headless', 'ca-certificates-java', 'xmlbeans']
+38:['java-common', 'default-jre-headless', 'ca-certificates-java', 'yui-compressor']
+39:['java-common', 'default-jre-headless', 'ca-certificates-java', 'ant', 'ant-optional', 'libgradle-plugins-java']
+40:['java-common', 'default-jre-headless', 'ca-certificates-java', 'ant', 'libfop-java', 'fop']
+41:['java-common', 'default-jre-headless', 'ca-certificates-java', 'ant', 'libgradle-core-java']
+42:['java-common', 'default-jre-headless', 'ca-certificates-java', 'ant', 'ivy-debian-helper']
+43:['java-common', 'default-jre-headless', 'ca-certificates-java', 'ant', 'libistack-commons-java', 'libcodemodel-java']
+44:['java-common', 'default-jre-headless', 'ca-certificates-java', 'ant', 'jruby']
+45:['java-common', 'default-jre-headless', 'ca-certificates-java', 'ant', 'libbindex-java']
+46:['java-common', 'default-jre-headless', 'ca-certificates-java', 'ant', 'libcomment-preprocessor-java']
+47:['java-common', 'default-jre-headless', 'ca-certificates-java', 'ant', 'libeclipse-jdt-apt-core-java', 'libeclipse-jdt-apt-pluggable-core-java']
+48:['java-common', 'default-jre-headless', 'ca-certificates-java', 'ant', 'libgmavenplus-java']
+49:['java-common', 'default-jre-headless', 'ca-certificates-java', 'ant', 'libmsv-java', 'libwoodstox-java']
+50:['java-common', 'default-jre-headless', 'ca-certificates-java', 'ant', 'libplexus-ant-factory-java', 'libmaven-plugin-tools-java']
+51:['java-common', 'default-jre-headless', 'ca-certificates-java', 'ant', 'libmaven-plugin-tools-java', 'libjboss-bridger-java']
+52:['java-common', 'default-jre-headless', 'ca-certificates-java', 'ant', 'libjgit-ant-java']
+53:['java-common', 'default-jre-headless', 'ca-certificates-java', 'ant', 'liblayout-java']
+54:['java-common', 'default-jre-headless', 'ca-certificates-java', 'ant', 'libmaven-antrun-plugin-java']
+55:['java-common', 'default-jre-headless', 'ca-certificates-java', 'ant', 'libmaven-script-interpreter-java', 'libmaven-invoker-plugin-java']
+56:['java-common', 'default-jre-headless', 'ca-certificates-java', 'ant', 'libreplacer-java']
+57:['java-common', 'default-jre-headless', 'ca-certificates-java', 'ant', 'libserializer-java']
+58:['java-common', 'default-jre-headless', 'ca-certificates-java', 'ant', 'libspock-java']
+59:['java-common', 'default-jre-headless', 'ca-certificates-java', 'ant', 'maven-ant-helper']
+60:['java-common', 'default-jre-headless', 'ca-certificates-java', 'antlr3', 'antlr3-maven-plugin']
+61:['java-common', 'default-jre-headless', 'ca-certificates-java', 'junit4', 'libantlr3.2-gunit-java', 'antlr3.2-gunit-maven-plugin']
+62:['java-common', 'default-jre-headless', 'ca-certificates-java', 'junit4', 'bnd', 'libgradle-plugins-java']
+63:['java-common', 'default-jre-headless', 'ca-certificates-java', 'junit4', 'groovy', 'libgradle-core-java', 'libgradle-plugins-java']
+64:['java-common', 'default-jre-headless', 'ca-certificates-java', 'junit4', 'libgradle-plugins-java']
+65:['java-common', 'default-jre-headless', 'ca-certificates-java', 'junit4', 'jruby']
+66:['java-common', 'default-jre-headless', 'ca-certificates-java', 'junit4', 'libjtharness-java', 'jtreg']
+67:['java-common', 'default-jre-headless', 'ca-certificates-java', 'junit4', 'libbindex-java']
+68:['java-common', 'default-jre-headless', 'ca-certificates-java', 'junit4', 'libcarrotsearch-randomizedtesting-java']
+69:['java-common', 'default-jre-headless', 'ca-certificates-java', 'junit4', 'libeclipse-jdt-junit4-runtime-java']
+70:['java-common', 'default-jre-headless', 'ca-certificates-java', 'junit4', 'libfest-util-java', 'libfest-assert-java']
+71:['java-common', 'default-jre-headless', 'ca-certificates-java', 'junit4', 'libfest-test-java']
+72:['java-common', 'default-jre-headless', 'ca-certificates-java', 'junit4', 'libmaven-plugin-testing-java']
+73:['java-common', 'default-jre-headless', 'ca-certificates-java', 'junit4', 'libnetty-tcnative-java']
+74:['java-common', 'default-jre-headless', 'ca-certificates-java', 'junit4', 'libresteasy3.0-java']
+75:['java-common', 'default-jre-headless', 'ca-certificates-java', 'junit4', 'libspock-java']
+76:['java-common', 'default-jre-headless', 'ca-certificates-java', 'antlr3.2', 'antlr3.2-maven-plugin']
+77:['java-common', 'default-jre-headless', 'ca-certificates-java', 'antlr3.2', 'jython']
+78:['java-common', 'default-jre-headless', 'ca-certificates-java', 'antlr4', 'libcarrotsearch-hppc-java']
+79:['java-common', 'default-jre-headless', 'ca-certificates-java', 'junit4', 'bnd', 'libbindex-java']
+80:['java-common', 'default-jre-headless', 'ca-certificates-java', 'junit4', 'bnd', 'libnet-luminis-build-plugin-java']
+81:['java-common', 'default-jre-headless', 'ca-certificates-java', 'cup', 'libxsltc-java']
+82:['java-common', 'default-jre-headless', 'ca-certificates-java', 'default-jre', 'findbugs']
+83:['java-common', 'default-jre-headless', 'ca-certificates-java', 'default-jre', 'freetts']
+84:['java-common', 'default-jre-headless', 'ca-certificates-java', 'default-jre', 'icedtea-netx']
+85:['java-common', 'default-jre-headless', 'ca-certificates-java', 'default-jre', 'javahelp2', 'jtreg']
+86:['java-common', 'default-jre-headless', 'ca-certificates-java', 'default-jre', 'jlex', 'libxsltc-java']
+87:['java-common', 'default-jre-headless', 'ca-certificates-java', 'default-jre', 'jruby']
+88:['java-common', 'default-jre-headless', 'ca-certificates-java', 'default-jre', 'sat4j', 'libequinox-p2-director-java']
+89:['java-common', 'default-jre-headless', 'ca-certificates-java', 'default-jre', 'remotetea', 'libgmetric4j-java']
+90:['java-common', 'default-jre-headless', 'ca-certificates-java', 'default-jre', 'libopenjpip-viewer']
+91:['java-common', 'default-jre-headless', 'ca-certificates-java', 'default-jre', 'libreoffice-officebean']
+92:['java-common', 'default-jre-headless', 'ca-certificates-java', 'default-jre', 'libreoffice-script-provider-bsh']
+93:['java-common', 'default-jre-headless', 'ca-certificates-java', 'default-jre', 'libreoffice-script-provider-js']
+94:['java-common', 'default-jre-headless', 'ca-certificates-java', 'default-jre', 'libreoffice-sdbc-hsqldb']
+95:['java-common', 'default-jre-headless', 'ca-certificates-java', 'default-jre', 'patator']
+96:['java-common', 'default-jre-headless', 'ca-certificates-java', 'default-jre', 'shrinksafe']
+97:['java-common', 'default-jre-headless', 'ca-certificates-java', 'default-jre', 'stegosuite']
+98:['java-common', 'default-jre-headless', 'ca-certificates-java', 'default-jre', 'uima-utils']
+99:['java-common', 'default-jre-headless', 'ca-certificates-java', 'default-jre', 'zabbix-java-gateway']
+100:['java-common', 'default-jre-headless', 'ca-certificates-java', 'ivy', 'libgradle-core-java', 'libgradle-plugins-java', 'gradle']
+101:['java-common', 'default-jre-headless', 'ca-certificates-java', 'ivy', 'ivy-debian-helper']
+102:['java-common', 'default-jre-headless', 'ca-certificates-java', 'ivy', 'libgmavenplus-java']
+103:['java-common', 'default-jre-headless', 'ca-certificates-java', 'junit4', 'groovy', 'libcommons-jci-groovy-java']
+104:['java-common', 'default-jre-headless', 'ca-certificates-java', 'junit4', 'groovy', 'libmaven-script-interpreter-java', 'libmaven-invoker-plugin-java']
+105:['java-common', 'default-jre-headless', 'ca-certificates-java', 'junit4', 'groovy', 'libmaven-invoker-plugin-java']
+106:['java-common', 'default-jre-headless', 'ca-certificates-java', 'junit4', 'groovy', 'libspock-java']
+107:['java-common', 'default-jre-headless', 'ca-certificates-java', 'maven-repo-helper', 'ivy-debian-helper']
+108:['java-common', 'default-jre-headless', 'ca-certificates-java', 'maven-repo-helper', 'maven-ant-helper']
+109:['java-common', 'default-jre-headless', 'ca-certificates-java', 'libgeronimo-jms-1.1-spec-java', 'libopenjpa-java']
+110:['java-common', 'default-jre-headless', 'ca-certificates-java', 'libgeronimo-jms-1.1-spec-java', 'liboscache-java']
+111:['java-common', 'default-jre-headless', 'ca-certificates-java', 'libgeronimo-jms-1.1-spec-java', 'libspring-jms-java']
+112:['java-common', 'default-jre-headless', 'ca-certificates-java', 'tomcat9-common', 'tomcat9-admin']
+113:['java-common', 'default-jre-headless', 'ca-certificates-java', 'tomcat9-common', 'tomcat9-user']
+114:['java-common', 'default-jre-headless', 'ca-certificates-java', 'ant', 'ant-optional', 'libistack-commons-java', 'libcodemodel-java']
+115:['java-common', 'default-jre-headless', 'ca-certificates-java', 'ant', 'ant-optional', 'libclassycle-java']
+116:['java-common', 'default-jre-headless', 'ca-certificates-java', 'ant', 'ant-optional', 'maven-ant-helper']
+117:['java-common', 'default-jre-headless', 'ca-certificates-java', 'ant', 'libfop-java', 'libdoxia-java', 'libdoxia-sitetools-java']
+118:['java-common', 'default-jre-headless', 'ca-certificates-java', 'ivy', 'libgradle-core-java', 'gradle', 'gradle-debian-helper']
+119:['java-common', 'default-jre-headless', 'ca-certificates-java', 'ant', 'ant-optional', 'libistack-commons-java', 'libjaxb-java', 'jaxb']
+120:['java-common', 'default-jre-headless', 'ca-certificates-java', 'ant', 'ant-optional', 'libistack-commons-java', 'libmaven-jaxb2-plugin-java']
+121:['java-common', 'default-jre-headless', 'ca-certificates-java', 'ant', 'libmaven-plugin-tools-java', 'libmaven-assembly-plugin-java']
+122:['java-common', 'default-jre-headless', 'ca-certificates-java', 'ant', 'libmaven-plugin-tools-java', 'libmaven-dependency-plugin-java']
+123:['java-common', 'default-jre-headless', 'ca-certificates-java', 'ant', 'libmaven-plugin-tools-java', 'libmaven-jaxb2-plugin-java']
+124:['java-common', 'default-jre-headless', 'ca-certificates-java', 'ant', 'libmaven-plugin-tools-java', 'libmaven-processor-plugin-java']
+125:['java-common', 'default-jre-headless', 'ca-certificates-java', 'ant', 'libmaven-plugin-tools-java', 'libmaven-site-plugin-java']
+126:['java-common', 'default-jre-headless', 'ca-certificates-java', 'ant', 'libmaven-plugin-tools-java', 'libmustache-java', 'libtiles-request-java']
+127:['java-common', 'default-jre-headless', 'ca-certificates-java', 'bnd', 'libbindex-java']
+128:['java-common', 'default-jre-headless', 'ca-certificates-java', 'bnd', 'libnet-luminis-build-plugin-java']
+129:['java-common', 'default-jre-headless', 'ca-certificates-java', 'groovy', 'libcommons-jci-groovy-java']
+130:['java-common', 'default-jre-headless', 'ca-certificates-java', 'groovy', 'libmaven-script-interpreter-java', 'libmaven-invoker-plugin-java']
+131:['java-common', 'default-jre-headless', 'ca-certificates-java', 'groovy', 'libmaven-invoker-plugin-java']
+132:['java-common', 'default-jre-headless', 'ca-certificates-java', 'groovy', 'libspock-java']
+133:['java-common', 'default-jre-headless', 'ca-certificates-java', 'junit4', 'groovy', 'libgradle-core-java', 'gradle', 'gradle-debian-helper']
+134:['java-common', 'default-jre-headless', 'ca-certificates-java', 'ant', 'libistack-commons-java', 'libjaxb-java', 'jaxb']
+135:['java-common', 'default-jre-headless', 'ca-certificates-java', 'ant', 'libistack-commons-java', 'libmaven-jaxb2-plugin-java']
+136:['java-common', 'default-jre-headless', 'ca-certificates-java', 'ant', 'libfop-java', 'libdoxia-java', 'libmaven-site-plugin-java']
+137:['java-common', 'default-jre-headless', 'ca-certificates-java', 'ant', 'libistack-commons-java', 'libjaxb-java', 'libapache-poi-java', 'liblayout-java']
+138:['java-common', 'default-jre-headless', 'ca-certificates-java', 'ant', 'libistack-commons-java', 'libjaxb-java', 'libeclipselink-java']
+139:['java-common', 'default-jre-headless', 'ca-certificates-java', 'ant', 'libistack-commons-java', 'libjaxb-java', 'libmaven-jaxb2-plugin-java']
+140:['java-common', 'default-jre-headless', 'ca-certificates-java', 'ant', 'libistack-commons-java', 'libjaxb-java', 'libresteasy3.0-java']
+141:['java-common', 'default-jre-headless', 'ca-certificates-java', 'ant', 'ant-optional', 'libistack-commons-java', 'libjaxb-java', 'libapache-poi-java', 'liblayout-java']
+142:['java-common', 'default-jre-headless', 'ca-certificates-java', 'ant', 'ant-optional', 'libistack-commons-java', 'libjaxb-java', 'libeclipselink-java']
+143:['java-common', 'default-jre-headless', 'ca-certificates-java', 'ant', 'ant-optional', 'libistack-commons-java', 'libjaxb-java', 'libmaven-jaxb2-plugin-java']
+144:['java-common', 'default-jre-headless', 'ca-certificates-java', 'ant', 'ant-optional', 'libistack-commons-java', 'libjaxb-java', 'libresteasy3.0-java']
+1:['libreoffice-java-common', 'libreoffice-officebean']
+2:['libreoffice-java-common', 'libreoffice-script-provider-bsh']
+3:['libreoffice-java-common', 'libreoffice-script-provider-js']
+4:['libreoffice-java-common', 'libreoffice-sdbc-hsqldb']
+1:['default-jre-headless', 'ca-certificates-java', 'ca-certificates-java']
+2:['default-jre-headless', 'ca-certificates-java', 'ant', 'ant-contrib']
+3:['default-jre-headless', 'ca-certificates-java', 'antlr', 'groovy']
+4:['default-jre-headless', 'ca-certificates-java', 'antlr3', 'libantlr3-gunit-java']
+5:['default-jre-headless', 'ca-certificates-java', 'junit4', 'libantlr3-gunit-java']
+6:['default-jre-headless', 'ca-certificates-java', 'antlr3.2', 'libantlr3.2-gunit-java']
+7:['default-jre-headless', 'ca-certificates-java', 'antlr4', 'antlr4-maven-plugin']
+8:['default-jre-headless', 'ca-certificates-java', 'aspectj']
+9:['default-jre-headless', 'ca-certificates-java', 'bnd', 'libgradle-plugins-java']
+10:['default-jre-headless', 'ca-certificates-java', 'bsh']
+11:['default-jre-headless', 'ca-certificates-java', 'closure-compiler']
+12:['default-jre-headless', 'ca-certificates-java', 'cup', 'jflex']
+13:['default-jre-headless', 'ca-certificates-java', 'default-jre', 'derby-tools']
+14:['default-jre-headless', 'ca-certificates-java', 'ecj']
+15:['default-jre-headless', 'ca-certificates-java', 'erlang-jinterface']
+16:['default-jre-headless', 'ca-certificates-java', 'fop', 'publican']
+17:['default-jre-headless', 'ca-certificates-java', 'ivy', 'groovy']
+18:['default-jre-headless', 'ca-certificates-java', 'groovy', 'libgradle-core-java']
+19:['default-jre-headless', 'ca-certificates-java', 'gradle', 'gradle-debian-helper']
+20:['default-jre-headless', 'ca-certificates-java', 'maven-repo-helper', 'gradle-debian-helper']
+21:['default-jre-headless', 'ca-certificates-java', 'gradle-debian-helper']
+22:['default-jre-headless', 'ca-certificates-java', 'hsqldb-utils']
+23:['default-jre-headless', 'ca-certificates-java', 'ivy-debian-helper']
+24:['default-jre-headless', 'ca-certificates-java', 'javacc']
+25:['default-jre-headless', 'ca-certificates-java', 'javacc4']
+26:['default-jre-headless', 'ca-certificates-java', 'jaxb']
+27:['default-jre-headless', 'ca-certificates-java', 'jetty9']
+28:['default-jre-headless', 'ca-certificates-java', 'jflex']
+29:['default-jre-headless', 'ca-certificates-java', 'jython']
+30:['default-jre-headless', 'ca-certificates-java', 'libbluray-bdj']
+31:['default-jre-headless', 'ca-certificates-java', 'libgeronimo-jms-1.1-spec-java', 'libeclipselink-java']
+32:['default-jre-headless', 'ca-certificates-java', 'rhino', 'libhttpunit-java']
+33:['default-jre-headless', 'ca-certificates-java', 'libservice-wrapper-jni', 'service-wrapper']
+34:['default-jre-headless', 'ca-certificates-java', 'maven']
+35:['default-jre-headless', 'ca-certificates-java', 'tomcat9-common', 'tomcat9']
+36:['default-jre-headless', 'ca-certificates-java', 'xmlbeans']
+37:['default-jre-headless', 'ca-certificates-java', 'yui-compressor']
+38:['default-jre-headless', 'ca-certificates-java', 'ant', 'ant-optional', 'libgradle-plugins-java']
+39:['default-jre-headless', 'ca-certificates-java', 'ant', 'libfop-java', 'fop']
+40:['default-jre-headless', 'ca-certificates-java', 'ant', 'libgradle-core-java']
+41:['default-jre-headless', 'ca-certificates-java', 'ant', 'ivy-debian-helper']
+42:['default-jre-headless', 'ca-certificates-java', 'ant', 'libistack-commons-java', 'libcodemodel-java']
+43:['default-jre-headless', 'ca-certificates-java', 'ant', 'jruby']
+44:['default-jre-headless', 'ca-certificates-java', 'ant', 'libbindex-java']
+45:['default-jre-headless', 'ca-certificates-java', 'ant', 'libcomment-preprocessor-java']
+46:['default-jre-headless', 'ca-certificates-java', 'ant', 'libeclipse-jdt-apt-core-java', 'libeclipse-jdt-apt-pluggable-core-java']
+47:['default-jre-headless', 'ca-certificates-java', 'ant', 'libgmavenplus-java']
+48:['default-jre-headless', 'ca-certificates-java', 'ant', 'libmsv-java', 'libwoodstox-java']
+49:['default-jre-headless', 'ca-certificates-java', 'ant', 'libplexus-ant-factory-java', 'libmaven-plugin-tools-java']
+50:['default-jre-headless', 'ca-certificates-java', 'ant', 'libmaven-plugin-tools-java', 'libjboss-bridger-java']
+51:['default-jre-headless', 'ca-certificates-java', 'ant', 'libjgit-ant-java']
+52:['default-jre-headless', 'ca-certificates-java', 'ant', 'liblayout-java']
+53:['default-jre-headless', 'ca-certificates-java', 'ant', 'libmaven-antrun-plugin-java']
+54:['default-jre-headless', 'ca-certificates-java', 'ant', 'libmaven-script-interpreter-java', 'libmaven-invoker-plugin-java']
+55:['default-jre-headless', 'ca-certificates-java', 'ant', 'libreplacer-java']
+56:['default-jre-headless', 'ca-certificates-java', 'ant', 'libserializer-java']
+57:['default-jre-headless', 'ca-certificates-java', 'ant', 'libspock-java']
+58:['default-jre-headless', 'ca-certificates-java', 'ant', 'maven-ant-helper']
+59:['default-jre-headless', 'ca-certificates-java', 'antlr3', 'antlr3-maven-plugin']
+60:['default-jre-headless', 'ca-certificates-java', 'junit4', 'libantlr3.2-gunit-java', 'antlr3.2-gunit-maven-plugin']
+61:['default-jre-headless', 'ca-certificates-java', 'junit4', 'bnd', 'libgradle-plugins-java']
+62:['default-jre-headless', 'ca-certificates-java', 'junit4', 'groovy', 'libgradle-core-java', 'libgradle-plugins-java']
+63:['default-jre-headless', 'ca-certificates-java', 'junit4', 'libgradle-plugins-java']
+64:['default-jre-headless', 'ca-certificates-java', 'junit4', 'jruby']
+65:['default-jre-headless', 'ca-certificates-java', 'junit4', 'libjtharness-java', 'jtreg']
+66:['default-jre-headless', 'ca-certificates-java', 'junit4', 'libbindex-java']
+67:['default-jre-headless', 'ca-certificates-java', 'junit4', 'libcarrotsearch-randomizedtesting-java']
+68:['default-jre-headless', 'ca-certificates-java', 'junit4', 'libeclipse-jdt-junit4-runtime-java']
+69:['default-jre-headless', 'ca-certificates-java', 'junit4', 'libfest-util-java', 'libfest-assert-java']
+70:['default-jre-headless', 'ca-certificates-java', 'junit4', 'libfest-test-java']
+71:['default-jre-headless', 'ca-certificates-java', 'junit4', 'libmaven-plugin-testing-java']
+72:['default-jre-headless', 'ca-certificates-java', 'junit4', 'libnetty-tcnative-java']
+73:['default-jre-headless', 'ca-certificates-java', 'junit4', 'libresteasy3.0-java']
+74:['default-jre-headless', 'ca-certificates-java', 'junit4', 'libspock-java']
+75:['default-jre-headless', 'ca-certificates-java', 'antlr3.2', 'antlr3.2-maven-plugin']
+76:['default-jre-headless', 'ca-certificates-java', 'antlr3.2', 'jython']
+77:['default-jre-headless', 'ca-certificates-java', 'antlr4', 'libcarrotsearch-hppc-java']
+78:['default-jre-headless', 'ca-certificates-java', 'junit4', 'bnd', 'libbindex-java']
+79:['default-jre-headless', 'ca-certificates-java', 'junit4', 'bnd', 'libnet-luminis-build-plugin-java']
+80:['default-jre-headless', 'ca-certificates-java', 'cup', 'libxsltc-java']
+81:['default-jre-headless', 'ca-certificates-java', 'default-jre', 'findbugs']
+82:['default-jre-headless', 'ca-certificates-java', 'default-jre', 'freetts']
+83:['default-jre-headless', 'ca-certificates-java', 'default-jre', 'icedtea-netx']
+84:['default-jre-headless', 'ca-certificates-java', 'default-jre', 'javahelp2', 'jtreg']
+85:['default-jre-headless', 'ca-certificates-java', 'default-jre', 'jlex', 'libxsltc-java']
+86:['default-jre-headless', 'ca-certificates-java', 'default-jre', 'jruby']
+87:['default-jre-headless', 'ca-certificates-java', 'default-jre', 'sat4j', 'libequinox-p2-director-java']
+88:['default-jre-headless', 'ca-certificates-java', 'default-jre', 'remotetea', 'libgmetric4j-java']
+89:['default-jre-headless', 'ca-certificates-java', 'default-jre', 'libopenjpip-viewer']
+90:['default-jre-headless', 'ca-certificates-java', 'default-jre', 'libreoffice-officebean']
+91:['default-jre-headless', 'ca-certificates-java', 'default-jre', 'libreoffice-script-provider-bsh']
+92:['default-jre-headless', 'ca-certificates-java', 'default-jre', 'libreoffice-script-provider-js']
+93:['default-jre-headless', 'ca-certificates-java', 'default-jre', 'libreoffice-sdbc-hsqldb']
+94:['default-jre-headless', 'ca-certificates-java', 'default-jre', 'patator']
+95:['default-jre-headless', 'ca-certificates-java', 'default-jre', 'shrinksafe']
+96:['default-jre-headless', 'ca-certificates-java', 'default-jre', 'stegosuite']
+97:['default-jre-headless', 'ca-certificates-java', 'default-jre', 'uima-utils']
+98:['default-jre-headless', 'ca-certificates-java', 'default-jre', 'zabbix-java-gateway']
+99:['default-jre-headless', 'ca-certificates-java', 'ivy', 'libgradle-core-java', 'libgradle-plugins-java', 'gradle']
+100:['default-jre-headless', 'ca-certificates-java', 'ivy', 'ivy-debian-helper']
+101:['default-jre-headless', 'ca-certificates-java', 'ivy', 'libgmavenplus-java']
+102:['default-jre-headless', 'ca-certificates-java', 'junit4', 'groovy', 'libcommons-jci-groovy-java']
+103:['default-jre-headless', 'ca-certificates-java', 'junit4', 'groovy', 'libmaven-script-interpreter-java', 'libmaven-invoker-plugin-java']
+104:['default-jre-headless', 'ca-certificates-java', 'junit4', 'groovy', 'libmaven-invoker-plugin-java']
+105:['default-jre-headless', 'ca-certificates-java', 'junit4', 'groovy', 'libspock-java']
+106:['default-jre-headless', 'ca-certificates-java', 'maven-repo-helper', 'ivy-debian-helper']
+107:['default-jre-headless', 'ca-certificates-java', 'maven-repo-helper', 'maven-ant-helper']
+108:['default-jre-headless', 'ca-certificates-java', 'libgeronimo-jms-1.1-spec-java', 'libopenjpa-java']
+109:['default-jre-headless', 'ca-certificates-java', 'libgeronimo-jms-1.1-spec-java', 'liboscache-java']
+110:['default-jre-headless', 'ca-certificates-java', 'libgeronimo-jms-1.1-spec-java', 'libspring-jms-java']
+111:['default-jre-headless', 'ca-certificates-java', 'tomcat9-common', 'tomcat9-admin']
+112:['default-jre-headless', 'ca-certificates-java', 'tomcat9-common', 'tomcat9-user']
+113:['default-jre-headless', 'ca-certificates-java', 'ant', 'ant-optional', 'libistack-commons-java', 'libcodemodel-java']
+114:['default-jre-headless', 'ca-certificates-java', 'ant', 'ant-optional', 'libclassycle-java']
+115:['default-jre-headless', 'ca-certificates-java', 'ant', 'ant-optional', 'maven-ant-helper']
+116:['default-jre-headless', 'ca-certificates-java', 'ant', 'libfop-java', 'libdoxia-java', 'libdoxia-sitetools-java']
+117:['default-jre-headless', 'ca-certificates-java', 'ivy', 'libgradle-core-java', 'gradle', 'gradle-debian-helper']
+118:['default-jre-headless', 'ca-certificates-java', 'ant', 'ant-optional', 'libistack-commons-java', 'libjaxb-java', 'jaxb']
+119:['default-jre-headless', 'ca-certificates-java', 'ant', 'ant-optional', 'libistack-commons-java', 'libmaven-jaxb2-plugin-java']
+120:['default-jre-headless', 'ca-certificates-java', 'ant', 'libmaven-plugin-tools-java', 'libmaven-assembly-plugin-java']
+121:['default-jre-headless', 'ca-certificates-java', 'ant', 'libmaven-plugin-tools-java', 'libmaven-dependency-plugin-java']
+122:['default-jre-headless', 'ca-certificates-java', 'ant', 'libmaven-plugin-tools-java', 'libmaven-jaxb2-plugin-java']
+123:['default-jre-headless', 'ca-certificates-java', 'ant', 'libmaven-plugin-tools-java', 'libmaven-processor-plugin-java']
+124:['default-jre-headless', 'ca-certificates-java', 'ant', 'libmaven-plugin-tools-java', 'libmaven-site-plugin-java']
+125:['default-jre-headless', 'ca-certificates-java', 'ant', 'libmaven-plugin-tools-java', 'libmustache-java', 'libtiles-request-java']
+126:['default-jre-headless', 'ca-certificates-java', 'bnd', 'libbindex-java']
+127:['default-jre-headless', 'ca-certificates-java', 'bnd', 'libnet-luminis-build-plugin-java']
+128:['default-jre-headless', 'ca-certificates-java', 'groovy', 'libcommons-jci-groovy-java']
+129:['default-jre-headless', 'ca-certificates-java', 'groovy', 'libmaven-script-interpreter-java', 'libmaven-invoker-plugin-java']
+130:['default-jre-headless', 'ca-certificates-java', 'groovy', 'libmaven-invoker-plugin-java']
+131:['default-jre-headless', 'ca-certificates-java', 'groovy', 'libspock-java']
+132:['default-jre-headless', 'ca-certificates-java', 'junit4', 'groovy', 'libgradle-core-java', 'gradle', 'gradle-debian-helper']
+133:['default-jre-headless', 'ca-certificates-java', 'ant', 'libistack-commons-java', 'libjaxb-java', 'jaxb']
+134:['default-jre-headless', 'ca-certificates-java', 'ant', 'libistack-commons-java', 'libmaven-jaxb2-plugin-java']
+135:['default-jre-headless', 'ca-certificates-java', 'ant', 'libfop-java', 'libdoxia-java', 'libmaven-site-plugin-java']
+136:['default-jre-headless', 'ca-certificates-java', 'ant', 'libistack-commons-java', 'libjaxb-java', 'libapache-poi-java', 'liblayout-java']
+137:['default-jre-headless', 'ca-certificates-java', 'ant', 'libistack-commons-java', 'libjaxb-java', 'libeclipselink-java']
+138:['default-jre-headless', 'ca-certificates-java', 'ant', 'libistack-commons-java', 'libjaxb-java', 'libmaven-jaxb2-plugin-java']
+139:['default-jre-headless', 'ca-certificates-java', 'ant', 'libistack-commons-java', 'libjaxb-java', 'libresteasy3.0-java']
+140:['default-jre-headless', 'ca-certificates-java', 'ant', 'ant-optional', 'libistack-commons-java', 'libjaxb-java', 'libapache-poi-java', 'liblayout-java']
+141:['default-jre-headless', 'ca-certificates-java', 'ant', 'ant-optional', 'libistack-commons-java', 'libjaxb-java', 'libeclipselink-java']
+142:['default-jre-headless', 'ca-certificates-java', 'ant', 'ant-optional', 'libistack-commons-java', 'libjaxb-java', 'libmaven-jaxb2-plugin-java']
+143:['default-jre-headless', 'ca-certificates-java', 'ant', 'ant-optional', 'libistack-commons-java', 'libjaxb-java', 'libresteasy3.0-java']
+1:['openjdk-11-jre-headless', 'default-jre-headless']
+2:['openjdk-11-jre-headless', 'openjdk-11-jre', 'default-jre']
+3:['openjdk-11-jre-headless', 'openjdk-11-jre-zero']
+1:['openjdk-11-jre', 'default-jre']
+1:['default-jre', 'derby-tools']
+2:['default-jre', 'findbugs']
+3:['default-jre', 'freetts']
+4:['default-jre', 'icedtea-netx']
+5:['default-jre', 'javahelp2', 'jtreg']
+6:['default-jre', 'jlex', 'libxsltc-java']
+7:['default-jre', 'jruby']
+8:['default-jre', 'sat4j', 'libequinox-p2-director-java']
+9:['default-jre', 'remotetea', 'libgmetric4j-java']
+10:['default-jre', 'libopenjpip-viewer']
+11:['default-jre', 'libreoffice-officebean']
+12:['default-jre', 'libreoffice-script-provider-bsh']
+13:['default-jre', 'libreoffice-script-provider-js']
+14:['default-jre', 'libreoffice-sdbc-hsqldb']
+15:['default-jre', 'patator']
+16:['default-jre', 'shrinksafe']
+17:['default-jre', 'stegosuite']
+18:['default-jre', 'uima-utils']
+19:['default-jre', 'zabbix-java-gateway']
+1:['sun-java6-jre', 'libreoffice-officebean']
+2:['sun-java6-jre', 'libreoffice-script-provider-bsh']
+3:['sun-java6-jre', 'libreoffice-script-provider-js']
+4:['sun-java6-jre', 'libreoffice-sdbc-hsqldb']
+1:['jre', 'libreoffice-officebean']
+2:['jre', 'libreoffice-script-provider-bsh']
+3:['jre', 'libreoffice-script-provider-js']
+4:['jre', 'libreoffice-sdbc-hsqldb']
+1:['openjdk-11-jre-zero']
+____________________________________________________/n
+ca-certificates-java:432
+default-jre-headless:431
+java-common:144
+ant:135
+default-jre:99
+junit4:69
+libistack-commons-java:42
+groovy:39
+ant-optional:30
+libjaxb-java:30
+libmaven-plugin-tools-java:24
+bnd:18
+libgradle-plugins-java:18
+libgradle-core-java:18
+ivy:15
+gradle-debian-helper:15
+libmaven-invoker-plugin-java:15
+libmaven-jaxb2-plugin-java:15
+gradle:12
+ivy-debian-helper:12
+libgeronimo-jms-1.1-spec-java:12
+libbindex-java:12
+libspock-java:12
+jruby:11
+antlr3.2:9
+maven-repo-helper:9
+jaxb:9
+libeclipselink-java:9
+tomcat9-common:9
+libfop-java:9
+liblayout-java:9
+libmaven-script-interpreter-java:9
+maven-ant-helper:9
+libresteasy3.0-java:9
+jtreg:8
+libxsltc-java:8
+libreoffice-officebean:8
+libreoffice-script-provider-bsh:8
+libreoffice-script-provider-js:8
+libreoffice-sdbc-hsqldb:8
+openjdk-11-jre-headless:7
+antlr3:6
+libantlr3-gunit-java:6
+libantlr3.2-gunit-java:6
+antlr4:6
+cup:6
+jflex:6
+fop:6
+jython:6
+libcodemodel-java:6
+libgmavenplus-java:6
+libnet-luminis-build-plugin-java:6
+libcommons-jci-groovy-java:6
+libdoxia-java:6
+libmaven-site-plugin-java:6
+libapache-poi-java:6
+derby-tools:5
+findbugs:5
+freetts:5
+icedtea-netx:5
+javahelp2:5
+jlex:5
+sat4j:5
+libequinox-p2-director-java:5
+remotetea:5
+libgmetric4j-java:5
+libopenjpip-viewer:5
+patator:5
+shrinksafe:5
+stegosuite:5
+uima-utils:5
+zabbix-java-gateway:5
+openjdk-11-jre:4
+openjdk-11-jre-zero:4
+libreoffice-java-common:4
+sun-java6-jre:4
+jre:4
+ant-contrib:3
+antlr:3
+antlr4-maven-plugin:3
+aspectj:3
+bsh:3
+closure-compiler:3
+ecj:3
+erlang-jinterface:3
+publican:3
+hsqldb-utils:3
+javacc:3
+javacc4:3
+jetty9:3
+libbluray-bdj:3
+rhino:3
+libhttpunit-java:3
+libservice-wrapper-jni:3
+service-wrapper:3
+maven:3
+tomcat9:3
+xmlbeans:3
+yui-compressor:3
+libcomment-preprocessor-java:3
+libeclipse-jdt-apt-core-java:3
+libeclipse-jdt-apt-pluggable-core-java:3
+libmsv-java:3
+libwoodstox-java:3
+libplexus-ant-factory-java:3
+libjboss-bridger-java:3
+libjgit-ant-java:3
+libmaven-antrun-plugin-java:3
+libreplacer-java:3
+libserializer-java:3
+antlr3-maven-plugin:3
+antlr3.2-gunit-maven-plugin:3
+libjtharness-java:3
+libcarrotsearch-randomizedtesting-java:3
+libeclipse-jdt-junit4-runtime-java:3
+libfest-util-java:3
+libfest-assert-java:3
+libfest-test-java:3
+libmaven-plugin-testing-java:3
+libnetty-tcnative-java:3
+antlr3.2-maven-plugin:3
+libcarrotsearch-hppc-java:3
+libopenjpa-java:3
+liboscache-java:3
+libspring-jms-java:3
+tomcat9-admin:3
+tomcat9-user:3
+libclassycle-java:3
+libdoxia-sitetools-java:3
+libmaven-assembly-plugin-java:3
+libmaven-dependency-plugin-java:3
+libmaven-processor-plugin-java:3
+libmustache-java:3
+libtiles-request-java:3
